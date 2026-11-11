@@ -267,45 +267,6 @@ body {
   border: 1px solid rgba(249, 115, 22, 0.4);
 }
 
-.project-card.disabled {
-  cursor: not-allowed;
-  opacity: 0.7;
-}
-
-.project-card.disabled:hover {
-  transform: none;
-  border-color: var(--border);
-  box-shadow: none;
-}
-
-.project-card.disabled:hover .project-card-glow {
-  opacity: 0;
-}
-
-.project-status {
-  position: absolute;
-  top: 32px;
-  right: 32px;
-  z-index: 1;
-}
-
-.status-badge {
-  padding: 6px 12px;
-  border-radius: 100px;
-  background: rgba(249, 115, 22, 0.15);
-  border: 1px solid rgba(249, 115, 22, 0.4);
-  color: #fb923c;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  .project-status {
-    top: 24px;
-    right: 24px;
-  }
-}
-
 .project-content {
   flex: 1;
   display: flex;
